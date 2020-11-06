@@ -1,0 +1,144 @@
+@font-face{
+    font-family: "Din";
+    src: url(../font/DIN.ttf);
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1ef;
+}
+.row{
+    /* margin: 0 !important; */
+    margin-right: 0;
+    margin-left: 0;
+    width: 100%;
+}
+img{
+    width: 100%;
+}
+header {
+    margin: 0 0 40px 0;
+}
+h1 {
+    font-size: 55px;
+    color: #808080;
+    text-align: center;
+    /* text-shadow: 1px 5px 6px; */
+    font-family: Din;
+    width: 100%;
+}
+h2 {
+    text-align: center;
+    font-family: Din;
+    font-weight: bolder;
+    color: #2DB7DB;
+    text-decoration: none;
+}
+h3 {
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #4c4c4c;
+    text-decoration: none;
+    font-size: 20px;
+    justify-content: center;
+}
+footer {
+    background-color: #1A4266;
+    height: 200px;
+}
+nav {
+    height: 100px;
+    border-top: 10px solid #2DB7DB;
+}
+.nav-icon {
+    width: 35px;
+    position: absolute;
+    right: 20px;
+}
+.nav-icon div{
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+}
+.nav-icon ul {
+    display: none;
+}
+
+div#logo {
+    width: 340px;
+    margin: 0 auto;
+}
+#bg_img img {
+    width: 100%;
+}
+section{
+    display: block;
+    min-height: 300px;
+    margin: 100px 0;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 100%;
+}
+#portafolio{
+    /* display: flex; */
+}
+.portfolio{
+    display: inline-flex;
+    padding: 0px 150px !important;
+}
+li > img{
+    width: 100%;
+    padding: 1%;
+    margin: 0 auto;
+}
+article.col-6.gmap {
+    padding: 3%;
+}
+.cont_list li img {
+    width: 5%;
+    /* display: inline-flex; */
+    /* flex-direction: column; */
+}
+ul.cont_list {
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+}
+.list-cont article {
+    /* height: 90px;
+    margin: 10px 0; */
+    /* display: flex;
+    justify-content: space-around; */
+}
+.tit-fot{
+    width: 100%;
+    text-align: center;
+    color: #E5E5E5;
+    font-size: 25px;
+    font-family: 'Din';
+    font-weight: 100;
+}
+.list-cont h3 {
+    height: 100%;
+    margin: auto 15px;
+}
+li.list-cont {
+    margin: 20px 0;
+}
+/* prueba */
+
+/* article.cont-bg {
+    display: flex;
+    height: 400px;
+    background: url(../img/fondo%201.png);
+}
+.bajo {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 100%;
+} */
